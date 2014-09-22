@@ -1,4 +1,8 @@
 python_weighted_average
 =======================
 
-Python List based weighted Average module
+Python Nested List based weighted Average Calculation module
+
+Takes a nested list [[value, weight],[value, weight],..] and returns weighted average as calculated by:
+
+Weighted Average = Sum(values * weights) / Sum(weights)
